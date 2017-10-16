@@ -26,7 +26,7 @@ Get on https://turi.com/download/install-graphlab-create.html
 
 * Running
 
-> docker run -d -p 8888:8888 -v $(pwd)/ml-foundations-week-files:/opt/ml-foundations-week-files -d coursera/ml-foundations
+> /Users/sferguson/dev/ml-foundations-coursera-docker/coursera/simple-linear-regression/docker run -p 8888:8888 -v $(pwd):/opt/ml-foundations-week-files coursera/ml-foundations
 
  **Open browser**: http://localhost:8888
 
